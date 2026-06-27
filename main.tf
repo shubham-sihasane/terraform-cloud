@@ -1,4 +1,4 @@
-resource "aws_instance" "devops_machine" {
+/* resource "aws_instance" "devops_machine" {
   ami = var.aws_instance_ami
   instance_type = var.aws_instance_type
   tags = {
@@ -20,3 +20,4 @@ resource "aws_instance" "devops_machine" {
     on_failure = fail
   }
 }
+*/
